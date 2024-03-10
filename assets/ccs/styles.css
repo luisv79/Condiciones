@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  :root{
+      --fondo-principal: #3d3c3c;
+  }
+
+.hero{
+    background-color: var(--fondo-principal);
+    height: 100vh;
+    padding: 25px;
+}
+
+.hero-titulo{
+    text-align: center;
+    margin: 25px;
+}
+
+.hero-titulo h1{
+    color: #fff;
+}
+
+.hero-titulo p{
+    color: #fff;
+}
+
+
+
+.imangen-borde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.imangen-borde img{
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.imangen-borde img:hover{
+    opacity: 0.5;
+}
+
+#conBorde.ponerBorde {
+    border: 2px solid red;
+  }
+
+  .boton{
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    background-color: #aa0a04;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .button-green {
+    background-color: #04aa28;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .imagenes-stikers{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .imagen-stiker{
+    color: #fff;
+    text-align: center;
+  }
+
+  .imagen-stiker img{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+
+  .btn-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+  }
+
+  .resultado{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 25px;
+  }
+  
+
+  .formulario-password{
+    display: flex;
+    justify-content: center;
+  }
+  

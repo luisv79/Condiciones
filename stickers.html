@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/ccs/styles.css">
+    <title>stickers</title>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-titulo">
+            <h1>Elige giftcards</h1>
+            <p>Puedes elegir la cantidad maxima de 10 giftcards</p>
+        </div>
+        <div class="imagenes-stikers">
+            <div class="imagen-stiker">
+                <img src="./assets/images/cencosud.jpg" alt="">
+                <form action="">
+                    <label for="quantity">Elige Cantidad:</label>
+                    <input type="number" id="cantidad1" name="cantidad1" min="1" max="10">
+                </form>
+            </div>
+
+            <div class="imagen-stiker">
+                <img src="./assets/images/falabella.jpg" alt="">
+                <form action="">
+                    <label for="quantity">Elige Cantidad:</label>
+                    <input type="number" id="cantidad2" name="cantidad2" min="1" max="10">
+                </form>
+            </div>
+
+            <div class="imagen-stiker">
+                <img src="./assets/images/ripley.jpg" alt="">
+                <form action="">
+                    <label for="quantity">Elige Cantidad:</label>
+                    <input type="number" id="cantidad3" name="cantidad3" min="1" max="10">
+                </form>
+            </div>
+        </div>
+
+        <div class="btn-enviar">
+            <button class="button-green" onclick="calcularStickers()">Enviar</button>
+        </div>
+
+        <p id="resultado" class="resultado"></p>
+
+        <div class="boton">
+            <a href="./index.html" class="button">Anterior</a>
+            <a href="./password.html" class="button">Siguiente</a>
+    
+        </div>
+    </section>
+    
+</body>
+<script src="./assets/script/scripts.js"></script>
+</html>
